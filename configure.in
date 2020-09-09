@@ -21,7 +21,7 @@ dnl extra vars for libmp3lame:
 dnl LIBMP3LAME_LDADD
 
 AC_PREREQ(2.69)
-AC_INIT([lame],[3.100],[lame-dev@lists.sf.net])
+AC_INIT([lame],[3.100],[lame-dev@lists.sf.net],[],[http://lame.sourceforge.net])
 AC_CONFIG_SRCDIR([libmp3lame/lame.c])
 AC_LANG([C])
 
@@ -1298,6 +1298,8 @@ AC_CONFIG_FILES([Makefile \
 		 macosx/Makefile \
 		 macosx/English.lproj/Makefile \
 		 macosx/LAME.xcodeproj/Makefile \
-		 vc_solution/Makefile])
+		 vc_solution/Makefile \
+		 lame.pc
+])
 
 AC_OUTPUT

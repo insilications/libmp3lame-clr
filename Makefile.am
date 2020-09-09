@@ -29,6 +29,9 @@ EXTRA_DIST = \
 	testcase.mp3 \
 	testcase.wav
 
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = lame.pc
+
 #
 # The differences depend on the used processor architecture, the used
 # compiler and the used options for the compiler, so make test may
